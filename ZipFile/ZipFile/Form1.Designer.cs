@@ -63,6 +63,7 @@
             this.btnFolder.TabIndex = 2;
             this.btnFolder.Text = "...";
             this.btnFolder.UseVisualStyleBackColor = true;
+            this.btnFolder.Click += new System.EventHandler(this.btnFolder_Click);
             // 
             // btnZipFolder
             // 
@@ -72,6 +73,7 @@
             this.btnZipFolder.TabIndex = 3;
             this.btnZipFolder.Text = "Zip";
             this.btnZipFolder.UseVisualStyleBackColor = true;
+            this.btnZipFolder.Click += new System.EventHandler(this.btnZipFolder_Click);
             // 
             // btnZipFile
             // 
@@ -81,6 +83,7 @@
             this.btnZipFile.TabIndex = 7;
             this.btnZipFile.Text = "Zip";
             this.btnZipFile.UseVisualStyleBackColor = true;
+            this.btnZipFile.Click += new System.EventHandler(this.btnZipFile_Click);
             // 
             // btnFileName
             // 
@@ -90,6 +93,7 @@
             this.btnFileName.TabIndex = 6;
             this.btnFileName.Text = "...";
             this.btnFileName.UseVisualStyleBackColor = true;
+            this.btnFileName.Click += new System.EventHandler(this.btnFileName_Click);
             // 
             // txtFileName
             // 
